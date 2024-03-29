@@ -36,7 +36,7 @@ function App() {
         return response.blob();
       })
       .then((blob) => {
-        document.getElementById("return_image").src = "src/assets/loading.gif";
+        document.getElementById("return_image").src = "loading.gif";
         wait(4000).then(() => {
           document.getElementById("return_image").src =
             URL.createObjectURL(blob);

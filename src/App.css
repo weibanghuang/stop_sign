@@ -20,7 +20,7 @@ body {
 }
 
 #stop_sign_mirror {
-  background-image: url("src/assets/mirror.png");
+  background-image: url("mirror.png");
   width: 200px;
   height: 200px;
   background-size: 100%;
@@ -31,7 +31,7 @@ body {
   width: 200px;
   height: 200px;
   background-size: 100%;
-  background-image: url("src/assets/stop_sign_mirror.png");
+  background-image: url("stop_sign_mirror.png");
 }
 
 #blob_image {
