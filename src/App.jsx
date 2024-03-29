@@ -51,7 +51,7 @@ function App() {
         <img id="stop_sign_mirror"></img>
       </div>
 
-      <h1>Am I a ... stop sign?</h1>
+      <h1>Am I ... a stop sign?</h1>
 
       <input
         type="file"
