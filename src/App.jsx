@@ -55,7 +55,7 @@ function App() {
 
       <input
         type="file"
-        accept="image/png, image/ipeg"
+        accept="image/png, image/jpeg, image/jpg"
         onChange={(e) => import_image(e)}
       />
       <button type="submit" onClick={() => callData()}>
