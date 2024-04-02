@@ -28,7 +28,7 @@ function App() {
     const wait = (time) => new Promise((resolve) => setTimeout(resolve, time));
     var formData = new FormData();
     formData.append("image", blobb, "image.jpg");
-    fetch("http://127.0.0.1:5000/sendImg", {
+    fetch("https://stop-sign-server.onrender.com/sendImg", {
       method: "POST",
       body: formData,
     })
