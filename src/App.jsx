@@ -1,6 +1,6 @@
 import "./App.css";
-import axios from "axios";
 import React from "react";
+// import Resizer from "react-image-file-resizer";
 
 function App() {
   let image_js_to_flask;
@@ -8,6 +8,7 @@ function App() {
   function import_image(event) {
     blobb = event.target.files[0];
     image_js_to_flask = URL.createObjectURL(blobb);
+
     document.getElementById("blob_image").src = image_js_to_flask;
   }
 
@@ -61,7 +62,7 @@ function App() {
       <button type="submit" onClick={() => callData()}>
         Upload
       </button>
-
+      <p>When uploading, server takes a minute to start up. Free Tier xD</p>
       <img id="blob_image"></img>
       <img id="return_image"></img>
     </>
